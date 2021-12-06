@@ -3,7 +3,6 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -43,4 +42,4 @@ Route::namespace('App\\Http\\Controllers\\API\V1')->group(function () {
 });
 
 // Public routes
-Route::get('/categories', 'FrontEndApiController@getCtegories');
+Route::get('/categories', 'App\Http\Controllers\FrontEndApiController@getCtegories');

@@ -27,7 +27,7 @@
         </li>
       @endcan
 
-      
+
 
       @can('isAdmin')
       <li class="nav-item has-treeview">
@@ -48,6 +48,16 @@
               </p>
             </router-link>
           </li>
+
+          <li class="nav-item">
+            <router-link to="/product/topmenu" class="nav-link">
+              <i class="nav-icon fas fa-list-ol green"></i>
+              <p>
+                Top Menu Bar
+              </p>
+            </router-link>
+          </li>
+
           <li class="nav-item">
             <router-link to="/product/tag" class="nav-link">
               <i class="nav-icon fas fa-tags green"></i>
@@ -56,7 +66,7 @@
               </p>
             </router-link>
           </li>
-          
+
             <li class="nav-item">
               <router-link to="/developer" class="nav-link">
                   <i class="nav-icon fas fa-cogs white"></i>
@@ -69,8 +79,8 @@
       </li>
 
       @endcan
-      
-      
+
+
 
       <li class="nav-item">
         <a href="#" class="nav-link" onclick="event.preventDefault();
