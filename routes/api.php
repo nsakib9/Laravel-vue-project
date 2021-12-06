@@ -41,3 +41,6 @@ Route::namespace('App\\Http\\Controllers\\API\V1')->group(function () {
         'tag' => 'TagController',
     ]);
 });
+
+// Public routes
+Route::get('/categories', 'FrontEndApiController@getCtegories');

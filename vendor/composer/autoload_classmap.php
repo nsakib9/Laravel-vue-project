@@ -3197,6 +3197,8 @@ return array(
     'PHPUnit\\Util\\Xml\\SuccessfulSchemaDetectionResult' => $vendorDir . '/phpunit/phpunit/src/Util/Xml/SuccessfulSchemaDetectionResult.php',
     'PHPUnit\\Util\\Xml\\ValidationResult' => $vendorDir . '/phpunit/phpunit/src/Util/Xml/ValidationResult.php',
     'PHPUnit\\Util\\Xml\\Validator' => $vendorDir . '/phpunit/phpunit/src/Util/Xml/Validator.php',
+    'Pallares\\LaravelNuxt\\Controllers\\NuxtController' => $vendorDir . '/pallares/laravel-nuxt/src/Controllers/NuxtController.php',
+    'Pallares\\LaravelNuxt\\LaravelNuxtServiceProvider' => $vendorDir . '/pallares/laravel-nuxt/src/LaravelNuxtServiceProvider.php',
     'ParagonIE\\ConstantTime\\Base32' => $vendorDir . '/paragonie/constant_time_encoding/src/Base32.php',
     'ParagonIE\\ConstantTime\\Base32Hex' => $vendorDir . '/paragonie/constant_time_encoding/src/Base32Hex.php',
     'ParagonIE\\ConstantTime\\Base64' => $vendorDir . '/paragonie/constant_time_encoding/src/Base64.php',
